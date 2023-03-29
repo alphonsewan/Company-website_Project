@@ -1,0 +1,380 @@
+/* Universal Style */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+/* NavBar  Desktop */
+.mobile {
+  display: none;}
+
+header .desktop {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6.5rem;
+  font-family: Roboto, sans-serif;
+  background-color: rgba(30, 30, 30, 0.8);
+  border-bottom: 1px solid #E5E5E5;
+  z-index: 1000;
+}
+
+.nav li {
+  margin: 0rem 2rem;
+  color: #E5E5E5;
+  font-size: 1.5rem;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #E5E5E5;
+}
+
+.nav img {
+  width: 17.6875rem;
+  height: 1.625rem;
+}
+
+
+
+/* NavBar Tablet */
+@media only screen and (max-width:837px) {
+  .mobile {
+    display: none;}
+}
+
+
+
+/* NavBar Mobile */
+@media only screen and (max-width:390px)
+{
+  header .desktop {
+    display: none;
+  }
+
+  header .nav li {
+    margin: 0rem 1.25rem;
+    color: #E5E5E5;
+    font-size: 0.75rem;
+  }
+
+  header .mobile{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    font-family: Roboto, sans-serif;
+    background-color: rgba(30, 30, 30, 0.8);
+    border-bottom: 1px solid #E5E5E5;
+    z-index: 1000;
+  }
+  
+  header .mobile li a {
+    text-decoration: none;
+    color: #E5E5E5;
+  }
+  
+  header .mobile img {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+
+
+
+
+
+/* Main - Banner Section */
+.banner-picture {
+  max-width: 100%;
+  height: 55rem;
+  background-image: url(/images/HomepageBanner.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-section {
+  display: flex;
+  align-items: center;
+  font-family: roboto, sans-serif;
+  color: #E5E5E5;
+}
+
+.banner-section h1{
+  font-family: roboto, sans-serif;
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.banner-section h1 span{
+  color: #7D1E22;
+}
+
+.banner-section h3{
+  font-family: roboto, sans-serif;
+  font-size: 2.25rem;
+  margin-top: 2rem;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: fit-content;
+  margin-left: 12rem;
+}
+
+
+
+/* Main - Banner Section Tablet */
+
+@media only screen and (max-width:837px) {
+  .banner-content {
+    align-items: center;
+    margin: 0 auto;
+  }
+}
+
+
+
+/* Main - Banner Section Mobile */
+@media only screen and (max-width:390px)
+{
+  .banner-picture {
+    height: 19.5625rem;
+  }
+
+  .banner-section h1 {
+    font-size: 2rem;
+  }
+
+  .banner-section h3 {
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .banner-content {
+    height: 19.5625rem; 
+    align-items: center;
+}
+}
+
+
+
+
+
+
+/* Main - About Section */
+.manner-about {
+  background-image: url(/images/Section1bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.manner-about article {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 12rem;
+  margin-right: 5rem;
+  font-family: roboto, sans-serif;
+  width: fit-content;
+}
+
+.content h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.content p {
+  max-width: 38rem;
+  min-width: 20rem;
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+
+.content p span {
+  font-weight: bold;
+  color: #7D1E22;
+}
+
+.img-container {
+  width: 60%;
+  margin: 2rem 0;
+  margin-right: 5rem;
+}
+
+.manner-about article img {
+  max-width: 100%;
+}
+
+
+
+/* Main - About Section - 1300PX */
+@media only screen and (max-width:1300px) {
+  .manner-about article{ 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+
+  .content {
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+
+  .img-container {
+    margin: 2rem auto 0;
+    width: 80%;
+  }
+}
+
+
+
+
+
+
+/* Main - Mission Statement Section */
+.manner-mission {
+  background-image: url(/images/Section2bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.manner-mission article {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.manner-mission article > .content h1 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  width: fit-content;
+  white-space: pre-wrap;
+}
+
+.manner-mission article img {
+  max-width: 100%;
+}
+
+
+
+
+
+
+/* Main- Sustainability Section */
+.manner-green {
+  background-image: url(/images/Section3bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.manner-green article {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.manner-green article img {
+  max-width: 100%;
+}
+
+.content h1 span{
+  color: #00573C;
+}
+
+
+
+
+
+/* Footer */
+.footer {
+  width: 100%;
+  background-color: #1E1E1E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer  .img-container {
+  width: 20%;
+  margin: 1rem 0;
+  margin-left: 4rem;
+} 
+
+.footer img {
+  max-width: 100%;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 4rem;
+}
+
+.footer-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contents h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.footer-contents li {
+  margin-top: 1rem;
+}
+
+.footer-contents li img {
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+
+.footer-right  .img-container {
+  width: 30%;
+  margin: 0;
+}
+
+.footer-right img {
+  max-width: 100%;
+}
+
+.footer {
+  font-family: roboto,sans-serif;
+  color: #E5E5E5;
+}
