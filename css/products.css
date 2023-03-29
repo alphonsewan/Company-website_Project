@@ -2,9 +2,8 @@
 
 * {
   box-sizing: border-box;
+  outline: 1px solid cornflowerblue;
 }
-
-
 
 
 
@@ -97,7 +96,7 @@ header .desktop {
 .banner-picture {
   max-width: 100%;
   height: 55rem;
-  background-image: url('../images/HomepageBanner.png');
+  background-image: url('../images/ProductspageBanner.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -107,7 +106,7 @@ header .desktop {
   display: flex;
   align-items: center;
   font-family: roboto, sans-serif;
-  color: #E5E5E5;
+  color: #1E1E1E;
 }
 
 .banner-section h1{
@@ -124,6 +123,7 @@ header .desktop {
   font-family: roboto, sans-serif;
   font-size: 2.25rem;
   margin-top: 2rem;
+  width: 30rem;
 }
 
 .banner-content {
@@ -174,9 +174,11 @@ header .desktop {
 
 
 
+
+
 /* Main - About Section */
-.manner-about {
-  background-image: url('../images/Section1bg.png');
+.manner-factory {
+  background-color: #ffffff;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -184,7 +186,7 @@ header .desktop {
   color: #1E1E1E;
 }
 
-.manner-about article {
+.manner-factory article {
   display:flex;
   justify-content: center;
   align-items: center;
@@ -201,6 +203,11 @@ header .desktop {
   font-family: roboto, sans-serif;
   width: fit-content;
 }
+
+.lineheight p {
+  line-height: 1.5rem;
+}
+
 
 .content h1 {
   font-size: 2.25rem;
@@ -227,15 +234,15 @@ header .desktop {
   margin-right: 5rem;
 }
 
-.manner-about article img {
+.manner-factory article img {
   max-width: 100%;
 }
 
 
 
-/* Main - About Section - 1300PX */
+/* Main - Factory Section - 1300PX */
 @media only screen and (max-width:1300px) {
-  .manner-about article{ 
+  .manner-factory article{ 
     display:flex;
     justify-content: center;
     align-items: center;
@@ -260,9 +267,9 @@ header .desktop {
 
 
 
-/* Main - Mission Statement Section */
-.manner-mission {
-  background-image: url('../images/Section2bg.png');
+/* Main - Logos Section */
+.manner-logos {
+  background-color: #E5E5E5;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -270,28 +277,79 @@ header .desktop {
   color: #1E1E1E;
 }
 
-.manner-mission article {
+.manner-logos article {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem auto;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.logos img {
+  height: 150px;
+}
+
+
+
+
+
+
+/* Main - Mission Commitment Section */
+.manner-commitment {
+  background-color: #ffffff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  color: #1E1E1E;
+}
+
+.manner-commitment article {
   display:flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
 }
 
-.manner-mission article > .content h1 {
+article > .content h1 {
   font-size: 2.25rem;
+  font-weight: bold;
+  width: fit-content;
+}
+
+article > .content h2 {
+  font-size: 1.25rem;
+  margin-top: 0.75rem;
   font-weight: bold;
   width: fit-content;
   white-space: pre-wrap;
 }
 
-.manner-mission article img {
+.commitment-lineheight p {
+  line-height: 1.5rem;
+}
+
+
+.manner-commitment article img {
   max-width: 100%;
 }
 
 
-/* Main - Mission Section - 1300PX */
+.img-container figcaption {
+  font-family: roboto, sans-serif;
+  font-size: 0.7rem;
+}
+
+
+/* Main - Commitment Section - 1300PX */
 @media only screen and (max-width:1300px) {
-  .manner-mission article{ 
+  .manner-commitment article{ 
     display:flex;
     justify-content: center;
     align-items: center;
@@ -304,44 +362,47 @@ header .desktop {
 
 
 
-/* Main- Sustainability Section */
-.manner-green {
-  background-image: url('../images/Section3bg.png');
+
+/* Products Section */
+.manner-products {
+  background-color: #E5E5E5;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   max-width: 100%;
-  color: #1E1E1E;
 }
 
-.manner-green article {
-  display:flex;
+.manner-products article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.content {
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 4rem;
 }
 
-.manner-green article img {
+
+.product-imgs {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img-container {
+  width: 50%;
+}
+
+.img-container img {
   max-width: 100%;
 }
 
-.content h1 span{
-  color: #00573C;
-}
 
 
-/* Main - Sustainability - 1300PX */
-@media only screen and (max-width:1300px) {
-  .manner-green article{ 
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 ;
-    margin-bottom: 4rem;
-    flex-wrap: wrap;
-  }
 
-}
 
 
 
@@ -403,3 +464,4 @@ header .desktop {
   font-family: roboto,sans-serif;
   color: #E5E5E5;
 }
+
