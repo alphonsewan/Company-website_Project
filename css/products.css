@@ -491,7 +491,7 @@ header .desktop {
   grid-template-columns: auto auto;
   gap: 2rem;
   justify-items: center;
-  margin-bottom: 3rem;
+  margin: 0 3rem 3rem;
 }
 
 .img-containerpd { 
@@ -541,6 +541,7 @@ figcaption h3 {
     width: fit-content;
     white-space: pre-wrap;
     margin-bottom: 3rem;
+
   }
 
   
@@ -564,9 +565,10 @@ figcaption h3 {
   }
 
   .product-imgs {
-    margin-bottom: 4rem;
+    margin: 0 0 4rem 0; 
+    }
   }
-}
+
 
 
 /* Main - Products Section - tablet*/
