@@ -57,7 +57,6 @@ header .desktop {
   }
 
   header .nav li {
-    margin: 0rem 1.25rem;
     color: #E5E5E5;
     font-size: 0.75rem;
   }
@@ -84,6 +83,13 @@ header .desktop {
     width: 3rem;
     height: 3rem;
   }
+
+  #product img, #home img{
+    width:1.5rem;
+    height:1.5rem;
+  }
+
+
 }
 
 

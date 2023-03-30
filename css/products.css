@@ -24,6 +24,7 @@ header .desktop {
   z-index: 1000;
 }
 
+
 .nav li {
   margin: 0rem 2rem;
   color: #E5E5E5;
@@ -58,10 +59,10 @@ header .desktop {
   }
 
   header .nav li {
-    margin: 0rem 1.25rem;
     color: #E5E5E5;
     font-size: 0.75rem;
   }
+
 
   header .mobile{
     position: fixed;
@@ -85,6 +86,19 @@ header .desktop {
     width: 3rem;
     height: 3rem;
   }
+
+  #home img{
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  #contact img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  }
+
 }
 
 
