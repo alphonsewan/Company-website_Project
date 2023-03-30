@@ -401,3 +401,21 @@ header .desktop {
   font-family: roboto,sans-serif;
   color: #E5E5E5;
 }
+
+@media only screen and (max-width:837px) {
+  
+  .footer-contents h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .footer-contents li {
+    margin-top: 0.5rem;
+  }
+
+  .footer-right  .img-container {
+    width: 20%;
+    margin: 0;
+  }
+
+}
