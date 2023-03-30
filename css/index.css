@@ -254,10 +254,6 @@ header .desktop {
 }
 
 
-
-
-
-
 /* Main - Mission Statement Section */
 .manner-mission {
   background-image: url('../images/Section2bg.png');
@@ -275,7 +271,7 @@ header .desktop {
   margin: 0 auto;
 }
 
-.manner-mission article > .content h1 {
+.manner-mission article .content h1 {
   font-size: 2.25rem;
   font-weight: bold;
   width: fit-content;
@@ -297,8 +293,6 @@ header .desktop {
     flex-wrap: wrap;
   }
 }
-
-
 
 
 
@@ -341,6 +335,32 @@ header .desktop {
 
 }
 
+/* Main - About Section - mobile */
+@media only screen and (max-width:390px)
+{
+.content h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+.manner-mission article .content h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.content p {
+  max-width: 20rem;
+  min-width: 20rem;
+  font-size: 1rem;
+  margin: 2rem auto 0;
+}
+
+}
+
 
 
 /* Footer */
@@ -352,7 +372,7 @@ header .desktop {
   align-items: center;
 }
 
-.footer  .img-container {
+.img-containerleft {
   width: 20%;
   margin: 1rem 0;
   margin-left: 4rem;
@@ -388,7 +408,7 @@ header .desktop {
   margin-right: 0.5rem;
 }
 
-.footer-right  .img-container {
+.img-containerright {
   width: 30%;
   margin: 0;
 }
@@ -413,9 +433,36 @@ header .desktop {
     margin-top: 0.5rem;
   }
 
-  .footer-right  .img-container {
+  .img-containerright {
     width: 20%;
     margin: 0;
   }
+
+}
+
+
+@media only screen and (max-width:390px){
+  
+.footer-right {
+  margin: 1rem 1rem;
+}
+
+.img-containerleft {
+  display: none;
+} 
+
+.footer-contents h1 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.footer-contents li img {
+  height: 0.75rem;
+  margin-right: 0.5rem;
+}
+
+.footer-contents li {
+  font-size: 0.75rem;
+}
 
 }

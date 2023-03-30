@@ -156,7 +156,73 @@ main {font-family: roboto, sans-serif;}
 }
 
 
+@media only screen and (max-width:837px) {
+  
+  .contact {
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 74.625rem;
+  }
+  
+  .contact {
+    background-image: url('../images/Contactbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+  
+}
 
+
+@media only screen and (max-width:390px) {
+  
+  .contact {
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 52.75rem;
+  }
+  
+  .contact {
+    background-image: url('../images/Contactbg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+  }
+  
+  .information-contents {
+    flex-direction: column;
+  }
+  
+
+  .information-contents li {
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    color:#E5E5E5;
+  }
+  
+  .information-contents li img {
+    margin-top: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+  }
+
+  .img-container {
+    width: 30%;
+  }
+  
+  .information-contents img {
+    max-width: 100%;
+  }
+  
+
+}
 
 /* RightSide 
 
