@@ -475,3 +475,44 @@ header .desktop {
 }
 
 }
+
+
+
+
+.banner-content h1 {
+  animation: HeadingAnimationh1 600ms ease-in;
+  backface-visibility: hidden;
+}
+
+.banner-content h3 {
+  animation: HeadingAnimationh3 600ms ease-in;
+  backface-visibility: hidden;
+}
+
+
+
+@keyframes HeadingAnimationh1 {
+  0% {
+    opacity: 0%;
+    transform: translateX(-300px);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+
+}
+
+@keyframes HeadingAnimationh3 {
+  0% {
+    opacity: 0%;
+    transform: translateX(300px);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateX(0);
+  }
+
+}
