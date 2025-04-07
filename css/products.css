@@ -159,8 +159,8 @@ header .desktop {
 
 
 
-/* Main - Banner Section Mobile 
-@media (max-width:768px)
+/* Main - Banner Section Mobile */
+@media only screen and (max-width:768px)
 {
   .banner-picture {
     height: 19.5625rem;
@@ -180,7 +180,7 @@ header .desktop {
     align-items: center;
 }
 }
-*/
+
 
 
 
