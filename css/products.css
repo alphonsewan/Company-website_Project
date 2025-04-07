@@ -44,7 +44,7 @@ header .desktop {
 
 
 /* NavBar Tablet */
-@media only screen and (max-width:837px) {
+@media (min-width: 769px) and (max-width: 1024px){
   .mobile {
     display: none;}
 }
@@ -52,7 +52,7 @@ header .desktop {
 
 
 /* NavBar Mobile */
-@media only screen and (max-width:390px)
+@media (max-width: 768px)
 {
   header .desktop {
     display: none;
@@ -150,7 +150,7 @@ header .desktop {
 
 /* Main - Banner Section Tablet */
 
-@media only screen and (max-width:837px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .desktop {display: none;}
 
   .tbanner-picture {
@@ -199,7 +199,7 @@ header .desktop {
 
 
 /* Main - Banner Section Mobile */
-@media only screen and (max-width:390px)
+@media (max-width: 768px)
 { 
   .tbanner-picture {
     height: 19.5625rem;
@@ -320,7 +320,7 @@ header .desktop {
 
 
 /* Main - Factory Section - mobile */
-@media only screen and (max-width:390px)
+@media (max-width: 768px)
 { 
   
   .content h1 {
@@ -377,7 +377,7 @@ header .desktop {
 
 
 /* Main - Logos Section - mobile */
-@media only screen and (max-width:390px)
+@media (max-width: 768px)
 { 
 
   .manner-logos article {
@@ -461,7 +461,7 @@ header .desktop {
 }
 
 /* Main - Commitment Section - mobile */
-@media only screen and (max-width:390px) {
+@media (max-width: 768px) {
   .img-containercommit {
     margin: 2rem auto;
     width: 85%;
@@ -586,7 +586,7 @@ figcaption h3 {
 
 
 /* Main - Products Section - tablet*/
-@media only screen and (max-width:834px)
+@media (min-width: 769px) and (max-width: 1024px)
 {
   
 .product-imgs {
