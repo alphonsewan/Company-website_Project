@@ -45,7 +45,7 @@ header .desktop {
 
 
 /* NavBar Tablet */
-@media only screen and (max-width:837px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .mobile {
     display: none;}
 }
@@ -53,7 +53,7 @@ header .desktop {
 
 
 /* NavBar Mobile */
-@media only screen and (max-width:390px)
+@media only screen and (max-width:768px)
 {
   header .desktop {
     display: none;
@@ -145,7 +145,7 @@ header .desktop {
 
 /* Main - Banner Section Tablet */
 
-@media only screen and (max-width:837px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .banner-content {
     align-items: center;
     margin: 0 auto;
@@ -155,7 +155,7 @@ header .desktop {
 
 
 /* Main - Banner Section Mobile */
-@media only screen and (max-width:390px)
+@media (max-width:768px)
 {
   .banner-picture {
     height: 19.5625rem;
@@ -345,7 +345,7 @@ header .desktop {
 }
 
 /* Main - About Section - mobile */
-@media only screen and (max-width:390px)
+@media (max-width: 768px)
 {
 .content h1 {
   font-size: 1.75rem;
@@ -431,7 +431,7 @@ header .desktop {
   color: #E5E5E5;
 }
 
-@media only screen and (max-width:837px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   
   .footer-contents h1 {
     font-size: 1.5rem;
@@ -450,7 +450,7 @@ header .desktop {
 }
 
 
-@media only screen and (max-width:390px){
+@media (max-width: 768px){
   
 .footer-right {
   margin: 1rem 1rem;
