@@ -625,7 +625,7 @@ figcaption h3 {
 
 
 /* Main - Products Section - mobile */
-@media only screen and (max-width:390px)
+@media (max-width: 768px)
 { 
   .title h1 {
   font-size: 1.5rem;
@@ -729,7 +729,8 @@ figcaption h3 {
   color: #E5E5E5;
 }
 
-@media only screen and (max-width:837px) {
+@media (min-width: 769px) and (max-width: 1024px)
+ {
   
   .footer-contents h1 {
     font-size: 1.5rem;
@@ -748,7 +749,7 @@ figcaption h3 {
 }
 
 
-@media only screen and (max-width:390px){
+@media (max-width: 768px){
   
 .footer-right {
   margin: 1rem 1rem;
