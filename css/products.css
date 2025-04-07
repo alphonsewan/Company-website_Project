@@ -148,7 +148,6 @@ header .desktop {
 
 
 /* Main - Banner Section Tablet */
-
 @media (min-width: 769px) and (max-width: 1024px) {
   .desktop {display: none;}
 
@@ -200,9 +199,13 @@ header .desktop {
 /* Main - Banner Section Mobile */
 @media (max-width: 768px)
 { 
-  .banner-picture {
-    height: 19.5625rem;
-  }
+  max-width: 100%;
+  height: 19.5625rem;
+  background-image: url('../images/ProductspageBanner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
   .banner-section h1 {
     font-size: 2rem;
