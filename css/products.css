@@ -202,15 +202,15 @@ header .desktop {
 { 
   .desktop {display: none;}
   
-  .tbanner-picture {
+  .banner-picture {
     height: 19.5625rem;
   }
 
-  .tbanner-section h1 {
+  .banner-section h1 {
     font-size: 2rem;
   }
 
-  .tbanner-section h3 {
+  .banner-section h3 {
     margin-top: 1rem;
     font-size: 1rem;
     width: auto;
@@ -218,7 +218,7 @@ header .desktop {
     text-align: center;
   }
 
-  .tbanner-content {
+  .banner-content {
     height: 19.5625rem; 
     align-items: center;
     margin: 0;
