@@ -200,6 +200,8 @@ header .desktop {
 /* Main - Banner Section Mobile */
 @media (max-width: 768px)
 { 
+  .desktop {display: none;}
+  
   .tbanner-picture {
     height: 19.5625rem;
   }
