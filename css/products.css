@@ -52,7 +52,7 @@ header .desktop {
 
 
 /* NavBar Mobile */
-@media (max-width: 768px)
+@media only screen and (max-width: 768px)
 {
   header .desktop {
     display: none;
