@@ -1,234 +1,230 @@
 /* Universal Style */
 
-* {
-  box-sizing: border-box;
-  list-style-type: none;
+*{
+ box-sizing: border-box;
+ list-style-type: none;
 }
 
 
 /* NavBar  Desktop */
-.mobile {
-  display: none;}
-
-header .desktop {
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 6.5rem;
-  font-family: Roboto, sans-serif;
-  background-color: rgba(30, 30, 30, 0.8);
-  border-bottom: 1px solid #E5E5E5;
-  z-index: 1000;
+.mobile{
+ display: none;
 }
 
-.nav li {
-  margin: 0rem 2rem;
-  color: #E5E5E5;
-  font-size: 1.5rem;
+header .desktop{
+ position: fixed;
+ z-index: 1000;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ height: 6.5rem;
+ border-bottom: 1px solid #e5e5e5;
+ background-color: rgba(30, 30, 30, 0.8);
+ font-family: Roboto, sans-serif;
 }
 
-.nav li a {
-  text-decoration: none;
-  color: #E5E5E5;
+.nav li{
+ margin: 0rem 2rem;
+ color: #e5e5e5;
+ font-size: 1.5rem;
 }
 
-.nav img {
-  width: 17.6875rem;
-  height: 1.625rem;
+.nav li a{
+ color: #e5e5e5;
+ text-decoration: none;
+}
+
+.nav img{
+ width: 17.6875rem;
+ height: 1.625rem;
 }
 
 
 
 /* NavBar Tablet */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .mobile {
-    display: none;}
+@media (min-width: 769px) and (max-width: 1024px){
+ .mobile{
+  display: none;
+ }
 }
 
 
 
 /* NavBar Mobile */
-@media (max-width: 768px)
-{
-  header .desktop {
-    display: none;
-  }
+@media (max-width: 768px){
+ header .desktop{
+  display: none;
+ }
 
-  header .nav li {
-    color: #E5E5E5;
-    font-size: 0.75rem;
-  }
+ header .nav li{
+  color: #e5e5e5;
+  font-size: 0.75rem;
+ }
 
-  header .mobile{
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 3rem;
-    font-family: Roboto, sans-serif;
-    background-color: rgba(30, 30, 30, 0.8);
-    border-bottom: 1px solid #E5E5E5;
-    z-index: 1000;
-  }
-  
-  header .mobile li a {
-    text-decoration: none;
-    color: #E5E5E5;
-  }
-  
-  header .mobile img {
-    width: 3rem;
-    height: 3rem;
-  }
+ header .mobile{
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: rgba(30, 30, 30, 0.8);
+  font-family: Roboto, sans-serif;
+ }
 
-  #product img, #home img{
-    width:1.5rem;
-    height:1.5rem;
-  }
+ header .mobile li a{
+  color: #e5e5e5;
+  text-decoration: none;
+ }
 
+ header .mobile img{
+  width: 3rem;
+  height: 3rem;
+ }
 
+ #product img, #home img{
+  width: 1.5rem;
+  height: 1.5rem;
+ }
 }
 
 
 /* Contact page */
 
-main {font-family: roboto, sans-serif;}
+main{
+ font-family: roboto, sans-serif;
+}
 
-.contact {
+.contact{
+ position: relative;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 67.5rem;
+}
+
+.contact{
+ max-width: 100%;
+ background-image: url("../images/Contactbg.png");
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.left{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.img-containerlogo{
+ display: flex;
+ justify-content: center;
+ margin: 0 auto;
+ width: 60%;
+}
+
+.img-containerlogo img{
+ max-width: 100%;
+}
+
+
+.information{
+ margin-top: 5rem;
+}
+
+.information-contents{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+
+.information-contents li{
+ margin-top: 1rem;
+ color: #e5e5e5;
+ font-size: 1.75rem;
+}
+
+.information-contents li img{
+ margin-right: 0.5rem;
+ height: 2rem;
+}
+
+.img-container{
+ width: 20%;
+}
+
+.information-contents img{
+ max-width: 100%;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px){
+ .contact{
   position: relative;
   display: flex;
-  justify-content:center;
   align-items: center;
-  height: 67.5rem;
-}
+  justify-content: center;
+  height: 74.625rem;
+ }
 
-.contact {
-  background-image: url('../images/Contactbg.png');
-  background-size: cover;
+ .contact{
+  max-width: 100%;
+  background-image: url("../images/Contactbg.png");
   background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
-  max-width: 100%;
-}
-
-.left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.img-containerlogo {
-  display: flex;
-  justify-content: center;
-  width: 60%;
-  margin: 0 auto;
-}
-
-.img-containerlogo img {
-  max-width: 100%;
+ }
 }
 
 
-.information {
-  margin-top: 5rem;
-}
 
-.information-contents {
+@media (max-width: 768px){
+ .contact{
+  position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-}
+  justify-content: center;
+  height: 100vh;
+ }
 
-
-.information-contents li {
-  margin-top: 1rem;
-  font-size: 1.75rem;
-  color:#E5E5E5;
-}
-
-.information-contents li img {
-  height: 2rem;
-  margin-right: 0.5rem;
-}
-
-.img-container {
-  width: 20%;
-}
-
-.information-contents img {
+ .contact{
   max-width: 100%;
-}
+  background-image: url("../images/Contactbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+
+ .information-contents{
+  flex-direction: column;
+ }
 
 
-@media (min-width: 769px) and (max-width: 1024px) {
-  
-  .contact {
-    position: relative;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    height: 74.625rem;
-  }
-  
-  .contact {
-    background-image: url('../images/Contactbg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 100%;
-  }
-  
-}
+ .information-contents li{
+  margin-top: 1rem;
+  color: #f9f9f9;
+  text-align: center;
+  font-size: 1rem;
+ }
 
+ .information-contents li img{
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  height: 1rem;
+ }
 
+ .img-container{
+  width: 30%;
+ }
 
-@media (max-width: 768px) {
-  
-  .contact {
-    position: relative;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    height: 52.75rem;
-  }
-  
-  .contact {
-    background-image: url('../images/Contactbg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    max-width: 100%;
-  }
-  
-  .information-contents {
-    flex-direction: column;
-  }
-  
-
-  .information-contents li {
-    margin-top: 1rem;
-    font-size: 1rem;
-    text-align: center;
-    color:#f9f9f9;
-  }
-  
-  .information-contents li img {
-    margin-top: 1rem;
-    height: 1rem;
-    margin-right: 0.5rem;
-  }
-
-  .img-container {
-    width: 30%;
-  }
-  
-  .information-contents img {
-    max-width: 100%;
-  }
-  
-
+ .information-contents img{
+  max-width: 100%;
+ }
 }
 
 /* RightSide 
